@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/github/crhobus/person-backend.svg?branch=master)](https://travis-ci.com/github/crhobus/person-backend)
+[![Build Status](https://travis-ci.com/crhobus/person-backend.svg?branch=master)](https://travis-ci.com/crhobus/person-backend)
 # Person Backend
 
   * Maven
