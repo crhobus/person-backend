@@ -9,8 +9,8 @@ before_deploy:
 deploy:
   provider: script
   script:
-    docker push caiohobus/postgres-person-backend
-    docker push caiohobus/person-backend
+    docker push caiohobus/postgres-person-backend;
+    docker push caiohobus/person-backend;
   on:
     branch: master
 notifications:
