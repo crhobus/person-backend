@@ -6,10 +6,19 @@
   * Travis CI (Integração contínua)
   * Rest API Spring
   * Spring Boot
+  * Produces/Consumes Apis em json, xml e yaml
+  * Json Properties
+  * Hateoas (links)
+  * Upload/Download de arquivos
+  * API exceptions customizadas
+  * Converter/Mapper Dto/Vo X Entity via Dozer
   * Spring Data JPA
     * JPA Hibernate
   * PostgreSQL
   * FlyWayDB
-  * QueryDSL
+  * JPQL
   * Log4J
-  * Hikari (Pool de conexões com o banco de dados)
+  * Spring Security
+  * JWT
+  * Swagger
+  * Docker
