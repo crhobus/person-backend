@@ -3,7 +3,6 @@ jdk:
   - openjdk14
 services: docker
 before_install:
-  - sudo apt-get-update
   - echo "We are in the Docker folder!"
 script:
   - docker-compose build
