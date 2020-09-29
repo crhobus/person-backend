@@ -1,4 +1,6 @@
 language: bash
+jdk:
+  - openjdk14
 services: docker
 before_install:
   - echo "We are in the Docker folder!"
@@ -9,8 +11,8 @@ before_deploy:
 deploy:
   provider: script
   script:
-    docker push leandrocgsi/mysql-rest-with-spring-boot-udemy;
-    docker push leandrocgsi/rest-with-spring-boot-udemy;
+    docker push caiohobus/postgres-person-backend
+    docker push caiohobus/person-backend
   on:
     branch: master
 notifications:
