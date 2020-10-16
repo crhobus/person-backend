@@ -28,7 +28,7 @@ public class PersonVO extends RepresentationModel<PersonVO> implements Serializa
     private String address;
 
     //@JsonIgnore() //Este ignora tanto para input quanto para output
-    //@JsonProperty(access = Access.WRITE_ONLY) // Estw ignora o atributo somente para o output
+    //@JsonProperty(access = Access.WRITE_ONLY) // Este ignora o atributo somente para o output
     private String gender;
 
     private Boolean enabled;
